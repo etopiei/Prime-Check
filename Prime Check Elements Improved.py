@@ -1,4 +1,3 @@
-'prime check with pascals elements + smarter loop, no nesting and less multiplication'
 
 def checkprimeelements(p):
 
@@ -31,12 +30,7 @@ def primecheck1(p):
 
         'print("{} is composite".format(p))'
 
-from datetime import datetime
-
-print(str(datetime.now()))
 
 for p in range (3,100001,2):
 
     primecheck1(p)
-
-print(str(datetime.now()))
